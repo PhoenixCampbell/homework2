@@ -149,7 +149,7 @@ key_to_get = "249"
 print("Value for key", key_to_get, ":", hash_table[key_to_get].employee_id)
 # keys = [item[0] for item in hash_table.table if item is not None]
 # print(keys)
-#! This was to check what keys were currently in hashtable, as the remove function always returned KeyErrors
+#! This was to check what keys were currently in hashtable
 key_to_remove = "128"
 try:
     del hash_table[key_to_remove]
